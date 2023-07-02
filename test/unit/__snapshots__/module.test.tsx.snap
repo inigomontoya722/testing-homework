@@ -1,0 +1,2315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Проверка каталога продуктов если выбрать продукт и добавить в корзину, то он в ней отобразиться и не исчезнет при обновлении 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Application"
+      >
+        <nav
+          class="navbar navbar-expand-sm navbar-light bg-light"
+        >
+          <div
+            class="container"
+          >
+            <a
+              class="Application-Brand navbar-brand"
+              href="/"
+            >
+              Example store
+            </a>
+            <button
+              aria-label="Toggle navigation"
+              class="Application-Toggler navbar-toggler"
+            >
+              <span
+                class="navbar-toggler-icon"
+              />
+            </button>
+            <div
+              class="Application-Menu collapse navbar-collapse"
+            >
+              <div
+                class="navbar-nav"
+              >
+                <a
+                  aria-current="page"
+                  class="nav-link active"
+                  href="/catalog"
+                >
+                  Catalog
+                </a>
+                <a
+                  class="nav-link"
+                  href="/delivery"
+                >
+                  Delivery
+                </a>
+                <a
+                  class="nav-link"
+                  href="/contacts"
+                >
+                  Contacts
+                </a>
+                <a
+                  class="nav-link"
+                  data-testid="nav-link-cart"
+                  href="/cart"
+                >
+                  Cart
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="container pt-4"
+        >
+          <div
+            class="Catalog"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                <h1>
+                  Catalog
+                </h1>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3"
+                data-testid="1"
+              >
+                <div
+                  class="ProductItem card w-100 mb-4"
+                  data-testid="1"
+                >
+                  <img
+                    class="Image card-img-top"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+                  />
+                  <div
+                    class="card-body"
+                  >
+                    <h5
+                      class="ProductItem-Name card-title"
+                    >
+                      Test Product
+                    </h5>
+                    <p
+                      class="ProductItem-Price card-text"
+                    >
+                      $
+                      100
+                    </p>
+                    <a
+                      class="ProductItem-DetailsLink card-link"
+                      href="/catalog/1"
+                    >
+                      Details
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Application"
+    >
+      <nav
+        class="navbar navbar-expand-sm navbar-light bg-light"
+      >
+        <div
+          class="container"
+        >
+          <a
+            class="Application-Brand navbar-brand"
+            href="/"
+          >
+            Example store
+          </a>
+          <button
+            aria-label="Toggle navigation"
+            class="Application-Toggler navbar-toggler"
+          >
+            <span
+              class="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            class="Application-Menu collapse navbar-collapse"
+          >
+            <div
+              class="navbar-nav"
+            >
+              <a
+                aria-current="page"
+                class="nav-link active"
+                href="/catalog"
+              >
+                Catalog
+              </a>
+              <a
+                class="nav-link"
+                href="/delivery"
+              >
+                Delivery
+              </a>
+              <a
+                class="nav-link"
+                href="/contacts"
+              >
+                Contacts
+              </a>
+              <a
+                class="nav-link"
+                data-testid="nav-link-cart"
+                href="/cart"
+              >
+                Cart
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="container pt-4"
+      >
+        <div
+          class="Catalog"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <h1>
+                Catalog
+              </h1>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-12 col-sm-6 col-md-4 col-lg-3"
+              data-testid="1"
+            >
+              <div
+                class="ProductItem card w-100 mb-4"
+                data-testid="1"
+              >
+                <img
+                  class="Image card-img-top"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+                />
+                <div
+                  class="card-body"
+                >
+                  <h5
+                    class="ProductItem-Name card-title"
+                  >
+                    Test Product
+                  </h5>
+                  <p
+                    class="ProductItem-Price card-text"
+                  >
+                    $
+                    100
+                  </p>
+                  <a
+                    class="ProductItem-DetailsLink card-link"
+                    href="/catalog/1"
+                  >
+                    Details
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Проверка каталога продуктов если выбрать продукт и добавить в корзину, то он в ней отобразиться и не исчезнет при обновлении 2`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Application"
+      >
+        <nav
+          class="navbar navbar-expand-sm navbar-light bg-light"
+        >
+          <div
+            class="container"
+          >
+            <a
+              class="Application-Brand navbar-brand"
+              href="/"
+            >
+              Example store
+            </a>
+            <button
+              aria-label="Toggle navigation"
+              class="Application-Toggler navbar-toggler"
+            >
+              <span
+                class="navbar-toggler-icon"
+              />
+            </button>
+            <div
+              class="Application-Menu collapse navbar-collapse"
+            >
+              <div
+                class="navbar-nav"
+              >
+                <a
+                  aria-current="page"
+                  class="nav-link active"
+                  href="/catalog"
+                >
+                  Catalog
+                </a>
+                <a
+                  class="nav-link"
+                  href="/delivery"
+                >
+                  Delivery
+                </a>
+                <a
+                  class="nav-link"
+                  href="/contacts"
+                >
+                  Contacts
+                </a>
+                <a
+                  class="nav-link"
+                  data-testid="nav-link-cart"
+                  href="/cart"
+                >
+                  Cart
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="container pt-4"
+        >
+          <div
+            class="Product"
+          >
+            <div
+              class="ProductDetails row"
+            >
+              <div
+                class="col-12 col-sm-5 col-lg-4"
+              >
+                <img
+                  class="Image"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+                />
+              </div>
+              <div
+                class="col-12 col-sm-7 col-lg-6"
+              >
+                <h1
+                  class="ProductDetails-Name"
+                >
+                  Test Product
+                </h1>
+                <p
+                  class="ProductDetails-Description"
+                >
+                  Test Product
+                </p>
+                <p
+                  class="ProductDetails-Price fs-3"
+                >
+                  $
+                  100
+                </p>
+                <p>
+                  <button
+                    class="ProductDetails-AddToCart btn btn-primary btn-lg"
+                    data-testid="button-add"
+                  >
+                    Add to Cart
+                  </button>
+                </p>
+                <dl>
+                  <dt>
+                    Color
+                  </dt>
+                  <dd
+                    class="ProductDetails-Color text-capitalize"
+                  >
+                    Test Color
+                  </dd>
+                  <dt>
+                    Material
+                  </dt>
+                  <dd
+                    class="ProductDetails-Material text-capitalize"
+                  >
+                    Test Material
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Application"
+    >
+      <nav
+        class="navbar navbar-expand-sm navbar-light bg-light"
+      >
+        <div
+          class="container"
+        >
+          <a
+            class="Application-Brand navbar-brand"
+            href="/"
+          >
+            Example store
+          </a>
+          <button
+            aria-label="Toggle navigation"
+            class="Application-Toggler navbar-toggler"
+          >
+            <span
+              class="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            class="Application-Menu collapse navbar-collapse"
+          >
+            <div
+              class="navbar-nav"
+            >
+              <a
+                aria-current="page"
+                class="nav-link active"
+                href="/catalog"
+              >
+                Catalog
+              </a>
+              <a
+                class="nav-link"
+                href="/delivery"
+              >
+                Delivery
+              </a>
+              <a
+                class="nav-link"
+                href="/contacts"
+              >
+                Contacts
+              </a>
+              <a
+                class="nav-link"
+                data-testid="nav-link-cart"
+                href="/cart"
+              >
+                Cart
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="container pt-4"
+      >
+        <div
+          class="Product"
+        >
+          <div
+            class="ProductDetails row"
+          >
+            <div
+              class="col-12 col-sm-5 col-lg-4"
+            >
+              <img
+                class="Image"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+              />
+            </div>
+            <div
+              class="col-12 col-sm-7 col-lg-6"
+            >
+              <h1
+                class="ProductDetails-Name"
+              >
+                Test Product
+              </h1>
+              <p
+                class="ProductDetails-Description"
+              >
+                Test Product
+              </p>
+              <p
+                class="ProductDetails-Price fs-3"
+              >
+                $
+                100
+              </p>
+              <p>
+                <button
+                  class="ProductDetails-AddToCart btn btn-primary btn-lg"
+                  data-testid="button-add"
+                >
+                  Add to Cart
+                </button>
+              </p>
+              <dl>
+                <dt>
+                  Color
+                </dt>
+                <dd
+                  class="ProductDetails-Color text-capitalize"
+                >
+                  Test Color
+                </dd>
+                <dt>
+                  Material
+                </dt>
+                <dd
+                  class="ProductDetails-Material text-capitalize"
+                >
+                  Test Material
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Проверка работы корзины Если заполнить форму корректно, то закак оформиться успешно 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Application"
+      >
+        <nav
+          class="navbar navbar-expand-sm navbar-light bg-light"
+        >
+          <div
+            class="container"
+          >
+            <a
+              class="Application-Brand navbar-brand"
+              href="/"
+            >
+              Example store
+            </a>
+            <button
+              aria-label="Toggle navigation"
+              class="Application-Toggler navbar-toggler"
+            >
+              <span
+                class="navbar-toggler-icon"
+              />
+            </button>
+            <div
+              class="Application-Menu collapse navbar-collapse"
+            >
+              <div
+                class="navbar-nav"
+              >
+                <a
+                  class="nav-link"
+                  href="/catalog"
+                >
+                  Catalog
+                </a>
+                <a
+                  class="nav-link"
+                  href="/delivery"
+                >
+                  Delivery
+                </a>
+                <a
+                  class="nav-link"
+                  href="/contacts"
+                >
+                  Contacts
+                </a>
+                <a
+                  aria-current="page"
+                  class="nav-link active"
+                  data-testid="nav-link-cart"
+                  href="/cart"
+                >
+                  Cart (1)
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="container pt-4"
+        >
+          <div
+            class="Cart"
+          >
+            <div
+              class="row mb-4"
+            >
+              <div
+                class="col"
+              >
+                <h1>
+                  Shopping cart
+                </h1>
+                <table
+                  class="Cart-Table table"
+                  data-testid="table-products"
+                >
+                  <thead>
+                    <tr>
+                      <th
+                        scope="col"
+                      >
+                        #
+                      </th>
+                      <th
+                        scope="col"
+                      >
+                        Product
+                      </th>
+                      <th
+                        scope="col"
+                      >
+                        Price
+                      </th>
+                      <th
+                        scope="col"
+                      >
+                        Count
+                      </th>
+                      <th
+                        scope="col"
+                      >
+                        Total
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th
+                        class="Cart-Index"
+                        scope="row"
+                      >
+                        1
+                      </th>
+                      <td
+                        class="Cart-Name"
+                      >
+                        Test Product
+                      </td>
+                      <td
+                        class="Cart-Price"
+                      >
+                        $
+                        100
+                      </td>
+                      <td
+                        class="Cart-Count"
+                      >
+                        1
+                      </td>
+                      <td
+                        class="Cart-Total"
+                      >
+                        $
+                        100
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td
+                        colspan="4"
+                      >
+                        Order price:
+                      </td>
+                      <td
+                        class="Cart-OrderPrice"
+                      >
+                        $
+                        100
+                      </td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+            <div
+              class="row mb-4"
+            >
+              <div
+                class="col-6"
+              >
+                <button
+                  class="Cart-Clear btn btn-outline-secondary"
+                >
+                  Clear shopping cart
+                </button>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="col-12 col-sm-8 col-md-6 col-lg-4"
+              >
+                <h2>
+                  Сheckout
+                </h2>
+                <div
+                  class="Form"
+                >
+                  <div
+                    class="mb-3"
+                  >
+                    <label
+                      class="form-label"
+                      for="f-name"
+                    >
+                      Name
+                    </label>
+                    <input
+                      autocomplete="off"
+                      class="Form-Field Form-Field_type_name form-control"
+                      data-testid="input-name"
+                      id="f-name"
+                      type="text"
+                    />
+                    <div
+                      class="invalid-feedback"
+                    >
+                      Please provide your name
+                    </div>
+                  </div>
+                  <div
+                    class="mb-3"
+                  >
+                    <label
+                      class="form-label"
+                      for="f-phone"
+                    >
+                      Phone
+                    </label>
+                    <input
+                      class="Form-Field Form-Field_type_phone form-control"
+                      data-testid="input-phone"
+                      id="f-phone"
+                      type="text"
+                    />
+                    <div
+                      class="invalid-feedback"
+                    >
+                      Please provide a valid phone
+                    </div>
+                  </div>
+                  <div
+                    class="mb-3"
+                  >
+                    <label
+                      class="form-label"
+                      for="f-address"
+                    >
+                      Address
+                    </label>
+                    <textarea
+                      class="Form-Field Form-Field_type_address form-control"
+                      data-testid="input-address"
+                      id="f-address"
+                      rows="3"
+                    />
+                    <div
+                      class="invalid-feedback"
+                    >
+                      Please provide a valid address
+                    </div>
+                  </div>
+                  <button
+                    class="Form-Submit btn btn-primary"
+                    data-testid="button-submit"
+                  >
+                    Checkout
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Application"
+    >
+      <nav
+        class="navbar navbar-expand-sm navbar-light bg-light"
+      >
+        <div
+          class="container"
+        >
+          <a
+            class="Application-Brand navbar-brand"
+            href="/"
+          >
+            Example store
+          </a>
+          <button
+            aria-label="Toggle navigation"
+            class="Application-Toggler navbar-toggler"
+          >
+            <span
+              class="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            class="Application-Menu collapse navbar-collapse"
+          >
+            <div
+              class="navbar-nav"
+            >
+              <a
+                class="nav-link"
+                href="/catalog"
+              >
+                Catalog
+              </a>
+              <a
+                class="nav-link"
+                href="/delivery"
+              >
+                Delivery
+              </a>
+              <a
+                class="nav-link"
+                href="/contacts"
+              >
+                Contacts
+              </a>
+              <a
+                aria-current="page"
+                class="nav-link active"
+                data-testid="nav-link-cart"
+                href="/cart"
+              >
+                Cart (1)
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="container pt-4"
+      >
+        <div
+          class="Cart"
+        >
+          <div
+            class="row mb-4"
+          >
+            <div
+              class="col"
+            >
+              <h1>
+                Shopping cart
+              </h1>
+              <table
+                class="Cart-Table table"
+                data-testid="table-products"
+              >
+                <thead>
+                  <tr>
+                    <th
+                      scope="col"
+                    >
+                      #
+                    </th>
+                    <th
+                      scope="col"
+                    >
+                      Product
+                    </th>
+                    <th
+                      scope="col"
+                    >
+                      Price
+                    </th>
+                    <th
+                      scope="col"
+                    >
+                      Count
+                    </th>
+                    <th
+                      scope="col"
+                    >
+                      Total
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th
+                      class="Cart-Index"
+                      scope="row"
+                    >
+                      1
+                    </th>
+                    <td
+                      class="Cart-Name"
+                    >
+                      Test Product
+                    </td>
+                    <td
+                      class="Cart-Price"
+                    >
+                      $
+                      100
+                    </td>
+                    <td
+                      class="Cart-Count"
+                    >
+                      1
+                    </td>
+                    <td
+                      class="Cart-Total"
+                    >
+                      $
+                      100
+                    </td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td
+                      colspan="4"
+                    >
+                      Order price:
+                    </td>
+                    <td
+                      class="Cart-OrderPrice"
+                    >
+                      $
+                      100
+                    </td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </div>
+          <div
+            class="row mb-4"
+          >
+            <div
+              class="col-6"
+            >
+              <button
+                class="Cart-Clear btn btn-outline-secondary"
+              >
+                Clear shopping cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-12 col-sm-8 col-md-6 col-lg-4"
+            >
+              <h2>
+                Сheckout
+              </h2>
+              <div
+                class="Form"
+              >
+                <div
+                  class="mb-3"
+                >
+                  <label
+                    class="form-label"
+                    for="f-name"
+                  >
+                    Name
+                  </label>
+                  <input
+                    autocomplete="off"
+                    class="Form-Field Form-Field_type_name form-control"
+                    data-testid="input-name"
+                    id="f-name"
+                    type="text"
+                  />
+                  <div
+                    class="invalid-feedback"
+                  >
+                    Please provide your name
+                  </div>
+                </div>
+                <div
+                  class="mb-3"
+                >
+                  <label
+                    class="form-label"
+                    for="f-phone"
+                  >
+                    Phone
+                  </label>
+                  <input
+                    class="Form-Field Form-Field_type_phone form-control"
+                    data-testid="input-phone"
+                    id="f-phone"
+                    type="text"
+                  />
+                  <div
+                    class="invalid-feedback"
+                  >
+                    Please provide a valid phone
+                  </div>
+                </div>
+                <div
+                  class="mb-3"
+                >
+                  <label
+                    class="form-label"
+                    for="f-address"
+                  >
+                    Address
+                  </label>
+                  <textarea
+                    class="Form-Field Form-Field_type_address form-control"
+                    data-testid="input-address"
+                    id="f-address"
+                    rows="3"
+                  />
+                  <div
+                    class="invalid-feedback"
+                  >
+                    Please provide a valid address
+                  </div>
+                </div>
+                <button
+                  class="Form-Submit btn btn-primary"
+                  data-testid="button-submit"
+                >
+                  Checkout
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Проверка работы корзины Если заполнить форму корректно, то закак оформиться успешно 2`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Application"
+      >
+        <nav
+          class="navbar navbar-expand-sm navbar-light bg-light"
+        >
+          <div
+            class="container"
+          >
+            <a
+              class="Application-Brand navbar-brand"
+              href="/"
+            >
+              Example store
+            </a>
+            <button
+              aria-label="Toggle navigation"
+              class="Application-Toggler navbar-toggler"
+            >
+              <span
+                class="navbar-toggler-icon"
+              />
+            </button>
+            <div
+              class="Application-Menu collapse navbar-collapse"
+            >
+              <div
+                class="navbar-nav"
+              >
+                <a
+                  class="nav-link"
+                  href="/catalog"
+                >
+                  Catalog
+                </a>
+                <a
+                  class="nav-link"
+                  href="/delivery"
+                >
+                  Delivery
+                </a>
+                <a
+                  class="nav-link"
+                  href="/contacts"
+                >
+                  Contacts
+                </a>
+                <a
+                  aria-current="page"
+                  class="nav-link active"
+                  data-testid="nav-link-cart"
+                  href="/cart"
+                >
+                  Cart
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="container pt-4"
+        >
+          <div
+            class="Cart"
+          >
+            <div
+              class="row mb-4"
+            >
+              <div
+                class="col"
+              >
+                <h1>
+                  Shopping cart
+                </h1>
+                <div
+                  class="row my-2"
+                >
+                  <div
+                    class="col-12 col-sm-8 col-md-6"
+                  >
+                    <div
+                      class="Cart-SuccessMessage alert alert-success"
+                      data-testid="success-message"
+                    >
+                      <h4
+                        class="alert-heading"
+                      >
+                        Well done!
+                      </h4>
+                      <p>
+                        Order #
+                        <strong
+                          class="Cart-Number"
+                        >
+                          1
+                        </strong>
+                         
+                        has been successfully completed.
+                      </p>
+                      <hr />
+                      <p
+                        class="mb-0"
+                      >
+                        Please wait for confirmation of delivery.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                Cart is empty. Please select products in the
+                 
+                <a
+                  href="/catalog"
+                >
+                  catalog
+                </a>
+                .
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Application"
+    >
+      <nav
+        class="navbar navbar-expand-sm navbar-light bg-light"
+      >
+        <div
+          class="container"
+        >
+          <a
+            class="Application-Brand navbar-brand"
+            href="/"
+          >
+            Example store
+          </a>
+          <button
+            aria-label="Toggle navigation"
+            class="Application-Toggler navbar-toggler"
+          >
+            <span
+              class="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            class="Application-Menu collapse navbar-collapse"
+          >
+            <div
+              class="navbar-nav"
+            >
+              <a
+                class="nav-link"
+                href="/catalog"
+              >
+                Catalog
+              </a>
+              <a
+                class="nav-link"
+                href="/delivery"
+              >
+                Delivery
+              </a>
+              <a
+                class="nav-link"
+                href="/contacts"
+              >
+                Contacts
+              </a>
+              <a
+                aria-current="page"
+                class="nav-link active"
+                data-testid="nav-link-cart"
+                href="/cart"
+              >
+                Cart
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="container pt-4"
+      >
+        <div
+          class="Cart"
+        >
+          <div
+            class="row mb-4"
+          >
+            <div
+              class="col"
+            >
+              <h1>
+                Shopping cart
+              </h1>
+              <div
+                class="row my-2"
+              >
+                <div
+                  class="col-12 col-sm-8 col-md-6"
+                >
+                  <div
+                    class="Cart-SuccessMessage alert alert-success"
+                    data-testid="success-message"
+                  >
+                    <h4
+                      class="alert-heading"
+                    >
+                      Well done!
+                    </h4>
+                    <p>
+                      Order #
+                      <strong
+                        class="Cart-Number"
+                      >
+                        1
+                      </strong>
+                       
+                      has been successfully completed.
+                    </p>
+                    <hr />
+                    <p
+                      class="mb-0"
+                    >
+                      Please wait for confirmation of delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              Cart is empty. Please select products in the
+               
+              <a
+                href="/catalog"
+              >
+                catalog
+              </a>
+              .
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Проверка работы корзины Не пустая корзина должна рендериться 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Application"
+      >
+        <nav
+          class="navbar navbar-expand-sm navbar-light bg-light"
+        >
+          <div
+            class="container"
+          >
+            <a
+              class="Application-Brand navbar-brand"
+              href="/"
+            >
+              Example store
+            </a>
+            <button
+              aria-label="Toggle navigation"
+              class="Application-Toggler navbar-toggler"
+            >
+              <span
+                class="navbar-toggler-icon"
+              />
+            </button>
+            <div
+              class="Application-Menu collapse navbar-collapse"
+            >
+              <div
+                class="navbar-nav"
+              >
+                <a
+                  class="nav-link"
+                  href="/catalog"
+                >
+                  Catalog
+                </a>
+                <a
+                  class="nav-link"
+                  href="/delivery"
+                >
+                  Delivery
+                </a>
+                <a
+                  class="nav-link"
+                  href="/contacts"
+                >
+                  Contacts
+                </a>
+                <a
+                  aria-current="page"
+                  class="nav-link active"
+                  data-testid="nav-link-cart"
+                  href="/cart"
+                >
+                  Cart (1)
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="container pt-4"
+        >
+          <div
+            class="Cart"
+          >
+            <div
+              class="row mb-4"
+            >
+              <div
+                class="col"
+              >
+                <h1>
+                  Shopping cart
+                </h1>
+                <table
+                  class="Cart-Table table"
+                  data-testid="table-products"
+                >
+                  <thead>
+                    <tr>
+                      <th
+                        scope="col"
+                      >
+                        #
+                      </th>
+                      <th
+                        scope="col"
+                      >
+                        Product
+                      </th>
+                      <th
+                        scope="col"
+                      >
+                        Price
+                      </th>
+                      <th
+                        scope="col"
+                      >
+                        Count
+                      </th>
+                      <th
+                        scope="col"
+                      >
+                        Total
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th
+                        class="Cart-Index"
+                        scope="row"
+                      >
+                        1
+                      </th>
+                      <td
+                        class="Cart-Name"
+                      >
+                        Test Product
+                      </td>
+                      <td
+                        class="Cart-Price"
+                      >
+                        $
+                        100
+                      </td>
+                      <td
+                        class="Cart-Count"
+                      >
+                        1
+                      </td>
+                      <td
+                        class="Cart-Total"
+                      >
+                        $
+                        100
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td
+                        colspan="4"
+                      >
+                        Order price:
+                      </td>
+                      <td
+                        class="Cart-OrderPrice"
+                      >
+                        $
+                        100
+                      </td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+            <div
+              class="row mb-4"
+            >
+              <div
+                class="col-6"
+              >
+                <button
+                  class="Cart-Clear btn btn-outline-secondary"
+                >
+                  Clear shopping cart
+                </button>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="col-12 col-sm-8 col-md-6 col-lg-4"
+              >
+                <h2>
+                  Сheckout
+                </h2>
+                <div
+                  class="Form"
+                >
+                  <div
+                    class="mb-3"
+                  >
+                    <label
+                      class="form-label"
+                      for="f-name"
+                    >
+                      Name
+                    </label>
+                    <input
+                      autocomplete="off"
+                      class="Form-Field Form-Field_type_name form-control"
+                      data-testid="input-name"
+                      id="f-name"
+                      type="text"
+                    />
+                    <div
+                      class="invalid-feedback"
+                    >
+                      Please provide your name
+                    </div>
+                  </div>
+                  <div
+                    class="mb-3"
+                  >
+                    <label
+                      class="form-label"
+                      for="f-phone"
+                    >
+                      Phone
+                    </label>
+                    <input
+                      class="Form-Field Form-Field_type_phone form-control"
+                      data-testid="input-phone"
+                      id="f-phone"
+                      type="text"
+                    />
+                    <div
+                      class="invalid-feedback"
+                    >
+                      Please provide a valid phone
+                    </div>
+                  </div>
+                  <div
+                    class="mb-3"
+                  >
+                    <label
+                      class="form-label"
+                      for="f-address"
+                    >
+                      Address
+                    </label>
+                    <textarea
+                      class="Form-Field Form-Field_type_address form-control"
+                      data-testid="input-address"
+                      id="f-address"
+                      rows="3"
+                    />
+                    <div
+                      class="invalid-feedback"
+                    >
+                      Please provide a valid address
+                    </div>
+                  </div>
+                  <button
+                    class="Form-Submit btn btn-primary"
+                    data-testid="button-submit"
+                  >
+                    Checkout
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Application"
+    >
+      <nav
+        class="navbar navbar-expand-sm navbar-light bg-light"
+      >
+        <div
+          class="container"
+        >
+          <a
+            class="Application-Brand navbar-brand"
+            href="/"
+          >
+            Example store
+          </a>
+          <button
+            aria-label="Toggle navigation"
+            class="Application-Toggler navbar-toggler"
+          >
+            <span
+              class="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            class="Application-Menu collapse navbar-collapse"
+          >
+            <div
+              class="navbar-nav"
+            >
+              <a
+                class="nav-link"
+                href="/catalog"
+              >
+                Catalog
+              </a>
+              <a
+                class="nav-link"
+                href="/delivery"
+              >
+                Delivery
+              </a>
+              <a
+                class="nav-link"
+                href="/contacts"
+              >
+                Contacts
+              </a>
+              <a
+                aria-current="page"
+                class="nav-link active"
+                data-testid="nav-link-cart"
+                href="/cart"
+              >
+                Cart (1)
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="container pt-4"
+      >
+        <div
+          class="Cart"
+        >
+          <div
+            class="row mb-4"
+          >
+            <div
+              class="col"
+            >
+              <h1>
+                Shopping cart
+              </h1>
+              <table
+                class="Cart-Table table"
+                data-testid="table-products"
+              >
+                <thead>
+                  <tr>
+                    <th
+                      scope="col"
+                    >
+                      #
+                    </th>
+                    <th
+                      scope="col"
+                    >
+                      Product
+                    </th>
+                    <th
+                      scope="col"
+                    >
+                      Price
+                    </th>
+                    <th
+                      scope="col"
+                    >
+                      Count
+                    </th>
+                    <th
+                      scope="col"
+                    >
+                      Total
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th
+                      class="Cart-Index"
+                      scope="row"
+                    >
+                      1
+                    </th>
+                    <td
+                      class="Cart-Name"
+                    >
+                      Test Product
+                    </td>
+                    <td
+                      class="Cart-Price"
+                    >
+                      $
+                      100
+                    </td>
+                    <td
+                      class="Cart-Count"
+                    >
+                      1
+                    </td>
+                    <td
+                      class="Cart-Total"
+                    >
+                      $
+                      100
+                    </td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td
+                      colspan="4"
+                    >
+                      Order price:
+                    </td>
+                    <td
+                      class="Cart-OrderPrice"
+                    >
+                      $
+                      100
+                    </td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </div>
+          <div
+            class="row mb-4"
+          >
+            <div
+              class="col-6"
+            >
+              <button
+                class="Cart-Clear btn btn-outline-secondary"
+              >
+                Clear shopping cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-12 col-sm-8 col-md-6 col-lg-4"
+            >
+              <h2>
+                Сheckout
+              </h2>
+              <div
+                class="Form"
+              >
+                <div
+                  class="mb-3"
+                >
+                  <label
+                    class="form-label"
+                    for="f-name"
+                  >
+                    Name
+                  </label>
+                  <input
+                    autocomplete="off"
+                    class="Form-Field Form-Field_type_name form-control"
+                    data-testid="input-name"
+                    id="f-name"
+                    type="text"
+                  />
+                  <div
+                    class="invalid-feedback"
+                  >
+                    Please provide your name
+                  </div>
+                </div>
+                <div
+                  class="mb-3"
+                >
+                  <label
+                    class="form-label"
+                    for="f-phone"
+                  >
+                    Phone
+                  </label>
+                  <input
+                    class="Form-Field Form-Field_type_phone form-control"
+                    data-testid="input-phone"
+                    id="f-phone"
+                    type="text"
+                  />
+                  <div
+                    class="invalid-feedback"
+                  >
+                    Please provide a valid phone
+                  </div>
+                </div>
+                <div
+                  class="mb-3"
+                >
+                  <label
+                    class="form-label"
+                    for="f-address"
+                  >
+                    Address
+                  </label>
+                  <textarea
+                    class="Form-Field Form-Field_type_address form-control"
+                    data-testid="input-address"
+                    id="f-address"
+                    rows="3"
+                  />
+                  <div
+                    class="invalid-feedback"
+                  >
+                    Please provide a valid address
+                  </div>
+                </div>
+                <button
+                  class="Form-Submit btn btn-primary"
+                  data-testid="button-submit"
+                >
+                  Checkout
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Проверка работы корзины Пустая корзина должна рендериться 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Application"
+      >
+        <nav
+          class="navbar navbar-expand-sm navbar-light bg-light"
+        >
+          <div
+            class="container"
+          >
+            <a
+              class="Application-Brand navbar-brand"
+              href="/"
+            >
+              Example store
+            </a>
+            <button
+              aria-label="Toggle navigation"
+              class="Application-Toggler navbar-toggler"
+            >
+              <span
+                class="navbar-toggler-icon"
+              />
+            </button>
+            <div
+              class="Application-Menu collapse navbar-collapse"
+            >
+              <div
+                class="navbar-nav"
+              >
+                <a
+                  class="nav-link"
+                  href="/catalog"
+                >
+                  Catalog
+                </a>
+                <a
+                  class="nav-link"
+                  href="/delivery"
+                >
+                  Delivery
+                </a>
+                <a
+                  class="nav-link"
+                  href="/contacts"
+                >
+                  Contacts
+                </a>
+                <a
+                  aria-current="page"
+                  class="nav-link active"
+                  data-testid="nav-link-cart"
+                  href="/cart"
+                >
+                  Cart
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="container pt-4"
+        >
+          <div
+            class="Cart"
+          >
+            <div
+              class="row mb-4"
+            >
+              <div
+                class="col"
+              >
+                <h1>
+                  Shopping cart
+                </h1>
+                Cart is empty. Please select products in the
+                 
+                <a
+                  href="/catalog"
+                >
+                  catalog
+                </a>
+                .
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Application"
+    >
+      <nav
+        class="navbar navbar-expand-sm navbar-light bg-light"
+      >
+        <div
+          class="container"
+        >
+          <a
+            class="Application-Brand navbar-brand"
+            href="/"
+          >
+            Example store
+          </a>
+          <button
+            aria-label="Toggle navigation"
+            class="Application-Toggler navbar-toggler"
+          >
+            <span
+              class="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            class="Application-Menu collapse navbar-collapse"
+          >
+            <div
+              class="navbar-nav"
+            >
+              <a
+                class="nav-link"
+                href="/catalog"
+              >
+                Catalog
+              </a>
+              <a
+                class="nav-link"
+                href="/delivery"
+              >
+                Delivery
+              </a>
+              <a
+                class="nav-link"
+                href="/contacts"
+              >
+                Contacts
+              </a>
+              <a
+                aria-current="page"
+                class="nav-link active"
+                data-testid="nav-link-cart"
+                href="/cart"
+              >
+                Cart
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="container pt-4"
+      >
+        <div
+          class="Cart"
+        >
+          <div
+            class="row mb-4"
+          >
+            <div
+              class="col"
+            >
+              <h1>
+                Shopping cart
+              </h1>
+              Cart is empty. Please select products in the
+               
+              <a
+                href="/catalog"
+              >
+                catalog
+              </a>
+              .
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
